@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIT MUSCLE</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family: 'Baloo Tamma 2', cursive;
+        margin:0px;
+        padding:0px;
+        background:url('images/fit.jpg'); 
+       background-repeat: no-repeat;
+       background-size: cover;
+       
+    }
+    .left{
+        display:inline-block;
+       /* border:2px solid red;*/
+        position:absolute;
+        left:34px;
+        top:20px;
+    }
+    .left img{
+        width:140px;
+        
+    }
+    .left div{
+        line-height: 30px;
+    font-size: 25px;
+        text-align:center;
+    }
+
+    .mid{
+        display:block;
+        width:50%;
+        margin:25px auto;
+      
+    
+    }
+    .right{position:absolute;
+        right:34px;
+        top:40px;
+        display:inline-block;
+       /* border:2px solid yellow;*/
+
+    }
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display:inline-block;
+    font-size:25px;
+
+}
+
+  .navbar li a{
+    color:black;
+    text-decoration:none;
+    padding :34px 23px;
+  } 
+  .navbar li a:hover, .navbar li a.active{
+    text-decoration:underline;
+    color:grey;
+  } 
+  .btn{
+    font-family: 'Baloo Tamma 2', cursive;
+    margin:0px 9px;
+    background-color:black;
+    color:white;
+    padding:4px 14px;
+    border-radius:10px;
+    font-size: 20px;cursor:pointer;
+  } 
+  .btn:hover {
+    background-color:grey;
+  } 
+  .container {
+    border:2px solid black;
+    margin:108px 90px;
+    padding:53px;
+    width:33%;
+    border-radius:28px;
+  }
+  .form-group input{
+font-family:'Baloo Tamma 2', cursive;
+text-align: center;
+display: block;
+width: 508px;
+padding: 1px;
+border: 2px solid black;
+margin: 11px auto;
+font-size: 25px;
+border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 103%;
+    margin: 25px auto;
+}
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+<img src="images/logo.png" alt="">
+<div>
+    FIT MUSCLE
+</div>
+            
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                
+                 <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fitness Centers</a></li>
+                 <li><a href="#">Contact Us</a></li>
+                 <li><a href="#">About Us</a></li>
+             </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button><button class="btn">mail us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN NOW AND START YOUR FITNESS JOURNEY</h1>
+        <form action="no action.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">SUBMIT</button>
+
+        </form>
+    </div>
+</body>
+</html>
